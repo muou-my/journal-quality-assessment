@@ -1,0 +1,28 @@
+{
+  "provider": "deepseek",
+  "base_url": "https://api.deepseek.com",
+  "model": "deepseek-flash",
+  "model_version": "unknown",
+  "thinking": "disabled",
+  "max_tokens": 4096,
+  "timeout_seconds": 120,
+  "concurrency": 2,
+  "checkpoint_every": 20,
+  "max_retries": 3,
+  "backoff_seconds": 2,
+  "max_cost_usd": "20",
+  "max_total_tasks": 1000000,
+  "input_reserve_tokens": 32768,
+  "expected_output_tokens": 1024,
+  "prices_usd_per_million": {
+    "input_miss": "0.30",
+    "input_hit": "0.006",
+    "output": "1.20"
+  },
+  "pricing_source": "https://api-docs.deepseek.com/quick_start/pricing/",
+  "pricing_checked_date": "2026-11-12",
+  "pricing_note": "Configured peak rates; usage-based estimates, not provider invoices. Recheck before paid launch.",
+  "accepted_response_models": [
+    "deepseek-flash"
+  ]
+}

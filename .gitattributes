@@ -1,0 +1,2 @@
+# Preserve pinned instruction/code bytes across Git checkouts on all platforms.
+* -text
