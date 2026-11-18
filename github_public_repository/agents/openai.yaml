@@ -1,4 +1,0 @@
-interface:
-  display_name: "Journal Quality Assessment"
-  short_description: "Assess article content and export journal quality scores"
-  default_prompt: "Use $journal-quality-assessment to validate my paper CSV and prepare an auditable evaluation."
