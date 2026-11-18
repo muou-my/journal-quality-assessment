@@ -1,0 +1,15 @@
+[build-system]
+requires = []
+build-backend = "build_backend"
+backend-path = ["."]
+
+[project]
+name = "journal-quality-assessment-skill"
+version = "0.2.0"
+description = "Portable REF-inspired article and journal quality assessment"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = []
+
+[project.scripts]
+jqa = "jqa_skill:main"
